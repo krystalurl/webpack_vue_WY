@@ -1,0 +1,27 @@
+{
+  "name": "webpack_vue_wy",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/krystalurl/webpack_vue_WY/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystalurl/webpack_vue_WY.git"
+  },
+  "author": "QWCY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krystalurl/webpack_vue_WY/issues"
+  },
+  "homepage": "https://github.com/krystalurl/webpack_vue_WY#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.6.0",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
