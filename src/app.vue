@@ -4,7 +4,7 @@
 	
 	<div class="mains">
 		<com-header></com-header>
-		
+			<router-view></router-view>
 		<com-footer></com-footer>
 	</div>
     
