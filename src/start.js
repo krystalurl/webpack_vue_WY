@@ -1,5 +1,5 @@
 import  Vue from 'vue';
-import appVue from './Vuecomponent/app.vue';
+import appVue from './app.vue';
 
 
 new Vue({
@@ -9,5 +9,7 @@ new Vue({
     render( str ){
         return str(appVue);
     }
- 
+ 	
+ 	
+ 	
 })
