@@ -2,13 +2,10 @@
 
 <template>
 
-
     <h2>
         标题
         <span>QW</span>
     </h2>
-
-
 
 </template>
 
