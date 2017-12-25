@@ -16,7 +16,7 @@
 <style lang="scss">
 	
     @import './All_css/init.scss';
-	
+	@import './lib/font_img/style.css'; 
 </style>
 <script>
 	

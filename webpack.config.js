@@ -20,6 +20,10 @@ const config = {
             {
                 test: /\.js$/,
                 use: 'babel-loader'
+            },{
+            	test: /\.(woff|svg|eot|ttf)\??.*$/,
+            	use: 'url-loader?name=fonts/[name].[md5:hash:hex:7].[ext]'
+            	
             }
         ]
     },
