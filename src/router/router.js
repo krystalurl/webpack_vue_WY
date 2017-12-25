@@ -5,18 +5,16 @@ import Router from 'vue-router';
 import musicHall from '../musicHall/musicHall.vue';
 
 
-Vue.use(Router)
+export default {
 
-const router = [
-    {
-        name: 'hoem',
-        path: '/home',
-        component: musicHall
-    }
-]
-
-export default new Router({
-    router: router
-})
+    routes: [
+        {
+            name: 'musicHall',
+            path: '/musicHall', 
+            component: musicHall
+        }
+    ]
+    
+}
 
 

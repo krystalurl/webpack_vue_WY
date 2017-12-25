@@ -5,14 +5,13 @@ import VueRouter from 'vue-router';
 import appVue from './app.vue';
 import Router from './router/router.js';
 
+Vue.use(VueRouter);
 
 new Vue({
 
     el: "#main",
-    template: "",
-    render( str ){
-        return str(appVue);
-    },
+    
+    render: h => h(appVue),
  	
     router: new VueRouter(Router)
  	
