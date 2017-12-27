@@ -2,7 +2,6 @@
 
 
 var path = require("path");
-
 const config = {
 
     entry: './src/start.js',
@@ -15,18 +14,27 @@ const config = {
         rules: [
             {
                 test: /\.vue$/,
-                use: 'vue-loader'
+                loader: 'vue-loader'
             },
             {
                 test: /\.js$/,
-                use: 'babel-loader'
-            },{
-            	test: /\.(woff|svg|eot|ttf)\??.*$/,
-            	use: 'url-loader?name=fonts/[name].[md5:hash:hex:7].[ext]'
-            	
+                loader: 'babel-loader',
+            },
+            {
+            	test: /\.(png|jpg|svg)$/, 
+            	loader: 'url-loader?limit=2048',
+            },
+            {
+            	test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        		loader: 'url-loader',
+            	/*options: {
+            		limit:50000,
+            		name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+            	}*/
             }
-        ]
+        ],
     },
+    
     devServer: {
         port: 8090,
         open: true

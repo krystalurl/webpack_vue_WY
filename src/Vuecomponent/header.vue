@@ -1,7 +1,8 @@
 <template>
 	
 	<header>
-		
+		<i class="icon-menu"></i>
+		<img src="../lib/img/123123.jpg" alt="" />
 	</header>
 	
 	
@@ -17,6 +18,8 @@
 		height: 1.57rem;
 		width: 100%;
 		background: $red;
+		
+		
 	}
 	
 </style>
