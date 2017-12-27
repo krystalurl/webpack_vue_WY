@@ -2,7 +2,6 @@
 	
 	<header>
 		<i class="icon-menu"></i>
-		<img src="../lib/img/123123.jpg" alt="" />
 	</header>
 	
 	

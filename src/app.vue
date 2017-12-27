@@ -7,8 +7,6 @@
 			<router-view></router-view>
 		<com-footer></com-footer>
 	</div>
-    
-	
 
 
 </template>
@@ -16,7 +14,8 @@
 <style lang="scss">
 	
     @import './All_css/init.scss';
-	@import './lib/font_img/style.css'; 
+	@import './lib/font_img/style.css';
+	
 </style>
 <script>
 	
@@ -39,7 +38,7 @@
 		// 组件 或者是单文件
 		components: {
 			'com-header': Header,
-			'com-footer': Footer,
+			'com-footer': Footer
 		},
 		
     }
