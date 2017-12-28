@@ -2,10 +2,6 @@
 	
 	<header>
 		<i class="icon-menu"></i>
-<<<<<<< HEAD
-=======
-
->>>>>>> 9a05a16f5167045baac122effd17b22878b0672e
 	</header>
 	
 	
