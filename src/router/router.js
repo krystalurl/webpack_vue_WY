@@ -9,6 +9,10 @@ export default {
 
     routes: [
         {
+            path: '/',
+            redirect: '/musicHall', 
+        },
+        {
             name: 'musicHall',
             path: '/musicHall', 
             component: musicHall

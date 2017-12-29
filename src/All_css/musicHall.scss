@@ -1,0 +1,61 @@
+
+
+
+.content{
+    width: 100%;
+    padding-top: 1.57rem;
+
+    &-shuffling{
+        width: 10.80rem;
+        height: 4.19rem;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    &-shufflingImg{
+        overflow: hidden;
+        height: 4.19rem;
+
+        li{
+            width: 10.80rem;
+            height: 4.19rem;
+            float: left;
+
+            img{
+                width: 100%;
+            }
+
+        }
+    }
+
+    &-shufflingPoint{
+        position: absolute;
+        width: 100%;
+        bottom: .27rem;
+        text-align: center;
+        font-size: 0;
+
+        ul{
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        li{
+            width: .21rem;
+            height: .21rem;
+            border-radius: 50%;
+            background: #aaa;
+            margin: 0 .12rem;
+            float: left;
+        }
+
+        .current{
+            background: #f00;
+        }
+
+    }
+
+}
+
+
