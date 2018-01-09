@@ -36,7 +36,7 @@ const config = {
     },
     
     devServer: {
-        // host: '192.168.0.236',
+        host: '192.168.2.121',
         port: 8090,
         open: true
     }

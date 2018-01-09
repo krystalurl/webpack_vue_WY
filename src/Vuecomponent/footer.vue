@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="footer">
+    <footer id="box" class="footer">
         <div class="footer-box">
             <div class="footer-img">
                 <img src="" alt="">
@@ -24,14 +24,13 @@
 </template>
 
 <script>
-
     export default {
 
         data(){
             return{
                 playSuspended: 0,   //播放、暂停按钮
             }
-        },
+        }, 
         methods: {
             play: function(){
                 this.playSuspended = !this.playSuspended;

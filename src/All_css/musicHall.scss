@@ -4,6 +4,7 @@
 .content{
     width: 100%;
     padding-top: 1.57rem;
+    padding-bottom: 1.86rem;
 
     &-shuffling{
         width: 10.80rem;
@@ -52,6 +53,88 @@
 
         .current{
             background: #f00;
+        }
+
+    }
+
+    &-option{
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 0.5rem 0;
+        }
+
+        li{
+            // width: 1.2rem;
+            text-align: center;
+            a{
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+            img{
+                width: 1.2rem;
+            }
+        }
+
+        p{
+            font-size: 0.36rem;
+            margin-top: 0.20rem;
+            font-weight: 700;
+            color: #000;
+        }
+
+    }
+
+    &-songList{
+        padding: .6rem 0 .45rem 0;
+        border-top: 1px solid #ecedef;
+        font-size: 16px;
+
+        a{
+            font-size: .5rem;
+            font-weight: 700;
+            color: #000;
+            border-left: 2px solid #d4393f;
+            display: inline-block;
+            text-indent: .2rem;
+        }
+    }
+
+    &-songMenu{
+        
+        
+        ul{
+            overflow: hidden;
+        }
+
+        li{
+            float: left;
+            width: 33%;
+            margin-right: 0.5%;
+
+            .img{
+                height: 3.48rem;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+
+            p{
+                font-size: .4rem;
+                padding: .11rem .22rem .27rem .09rem;
+                line-height: .55rem;
+            }
+
+            &:nth-child(3n){
+                margin-right: 0;
+            }
+
         }
 
     }
